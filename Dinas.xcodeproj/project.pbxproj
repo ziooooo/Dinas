@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586CD1141E8113DA0049731C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1131E8113DA0049731C /* main.m */; };
+		586CD1171E8113DA0049731C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1161E8113DA0049731C /* AppDelegate.m */; };
+		586CD11A1E8113DA0049731C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1191E8113DA0049731C /* ViewController.m */; };
+		586CD11D1E8113DA0049731C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586CD11B1E8113DA0049731C /* Main.storyboard */; };
+		586CD11F1E8113DA0049731C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586CD11E1E8113DA0049731C /* Assets.xcassets */; };
+		586CD1221E8113DA0049731C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586CD1201E8113DA0049731C /* LaunchScreen.storyboard */; };
+		58F389CA1E8BC613000904EF /* DINAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389AF1E8BC612000904EF /* DINAttribute.m */; };
+		58F389CB1E8BC613000904EF /* DINEqualToAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B11E8BC612000904EF /* DINEqualToAttribute.m */; };
+		58F389CC1E8BC613000904EF /* DINFrameAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B31E8BC612000904EF /* DINFrameAttribute.m */; };
+		58F389CD1E8BC613000904EF /* DINMultiplierAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */; };
+		58F389CE1E8BC613000904EF /* DINOffsetAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B71E8BC612000904EF /* DINOffsetAttribute.m */; };
+		58F389CF1E8BC613000904EF /* DINOperationAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B91E8BC613000904EF /* DINOperationAttribute.m */; };
+		58F389D01E8BC613000904EF /* DINAnalyzeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */; };
+		58F389D11E8BC613000904EF /* DINBoxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389BE1E8BC613000904EF /* DINBoxValue.m */; };
+		58F389D21E8BC613000904EF /* DINInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C01E8BC613000904EF /* DINInstruction.m */; };
+		58F389D31E8BC613000904EF /* DINStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C21E8BC613000904EF /* DINStructure.m */; };
+		58F389D41E8BC613000904EF /* DINStructureMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C41E8BC613000904EF /* DINStructureMaker.m */; };
+		58F389D51E8BC613000904EF /* DINTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C61E8BC613000904EF /* DINTarget.m */; };
+		58F389D61E8BC613000904EF /* UIView+DINAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C91E8BC613000904EF /* UIView+DINAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		586CD10F1E8113DA0049731C /* Dinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586CD1131E8113DA0049731C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		586CD1151E8113DA0049731C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		586CD1161E8113DA0049731C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		586CD1181E8113DA0049731C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		586CD1191E8113DA0049731C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		586CD11C1E8113DA0049731C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586CD11E1E8113DA0049731C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		586CD1211E8113DA0049731C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586CD1231E8113DA0049731C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F389AE1E8BC612000904EF /* DINAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAttribute.h; sourceTree = "<group>"; };
+		58F389AF1E8BC612000904EF /* DINAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAttribute.m; sourceTree = "<group>"; };
+		58F389B01E8BC612000904EF /* DINEqualToAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINEqualToAttribute.h; sourceTree = "<group>"; };
+		58F389B11E8BC612000904EF /* DINEqualToAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINEqualToAttribute.m; sourceTree = "<group>"; };
+		58F389B21E8BC612000904EF /* DINFrameAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINFrameAttribute.h; sourceTree = "<group>"; };
+		58F389B31E8BC612000904EF /* DINFrameAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINFrameAttribute.m; sourceTree = "<group>"; };
+		58F389B41E8BC612000904EF /* DINMultiplierAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINMultiplierAttribute.h; sourceTree = "<group>"; };
+		58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINMultiplierAttribute.m; sourceTree = "<group>"; };
+		58F389B61E8BC612000904EF /* DINOffsetAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOffsetAttribute.h; sourceTree = "<group>"; };
+		58F389B71E8BC612000904EF /* DINOffsetAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOffsetAttribute.m; sourceTree = "<group>"; };
+		58F389B81E8BC613000904EF /* DINOperationAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOperationAttribute.h; sourceTree = "<group>"; };
+		58F389B91E8BC613000904EF /* DINOperationAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOperationAttribute.m; sourceTree = "<group>"; };
+		58F389BA1E8BC613000904EF /* DINAnalyzeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAnalyzeUtil.h; sourceTree = "<group>"; };
+		58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAnalyzeUtil.m; sourceTree = "<group>"; };
+		58F389BC1E8BC613000904EF /* Dinas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dinas.h; sourceTree = "<group>"; };
+		58F389BD1E8BC613000904EF /* DINBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINBoxValue.h; sourceTree = "<group>"; };
+		58F389BE1E8BC613000904EF /* DINBoxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINBoxValue.m; sourceTree = "<group>"; };
+		58F389BF1E8BC613000904EF /* DINInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINInstruction.h; sourceTree = "<group>"; };
+		58F389C01E8BC613000904EF /* DINInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINInstruction.m; sourceTree = "<group>"; };
+		58F389C11E8BC613000904EF /* DINStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructure.h; sourceTree = "<group>"; };
+		58F389C21E8BC613000904EF /* DINStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructure.m; sourceTree = "<group>"; };
+		58F389C31E8BC613000904EF /* DINStructureMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructureMaker.h; sourceTree = "<group>"; };
+		58F389C41E8BC613000904EF /* DINStructureMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructureMaker.m; sourceTree = "<group>"; };
+		58F389C51E8BC613000904EF /* DINTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTarget.h; sourceTree = "<group>"; };
+		58F389C61E8BC613000904EF /* DINTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINTarget.m; sourceTree = "<group>"; };
+		58F389C71E8BC613000904EF /* DINTargetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTargetProtocol.h; sourceTree = "<group>"; };
+		58F389C81E8BC613000904EF /* UIView+DINAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DINAdditions.h"; sourceTree = "<group>"; };
+		58F389C91E8BC613000904EF /* UIView+DINAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DINAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586CD10C1E8113DA0049731C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586CD1061E8113DA0049731C = {
+			isa = PBXGroup;
+			children = (
+				586CD1111E8113DA0049731C /* Dinas */,
+				586CD1101E8113DA0049731C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		586CD1101E8113DA0049731C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				586CD10F1E8113DA0049731C /* Dinas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		586CD1111E8113DA0049731C /* Dinas */ = {
+			isa = PBXGroup;
+			children = (
+				58F389AC1E8BC612000904EF /* Dinas */,
+				586CD1151E8113DA0049731C /* AppDelegate.h */,
+				586CD1161E8113DA0049731C /* AppDelegate.m */,
+				586CD1181E8113DA0049731C /* ViewController.h */,
+				586CD1191E8113DA0049731C /* ViewController.m */,
+				586CD11B1E8113DA0049731C /* Main.storyboard */,
+				586CD11E1E8113DA0049731C /* Assets.xcassets */,
+				586CD1201E8113DA0049731C /* LaunchScreen.storyboard */,
+				586CD1231E8113DA0049731C /* Info.plist */,
+				586CD1121E8113DA0049731C /* Supporting Files */,
+			);
+			path = Dinas;
+			sourceTree = "<group>";
+		};
+		586CD1121E8113DA0049731C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				586CD1131E8113DA0049731C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58F389AC1E8BC612000904EF /* Dinas */ = {
+			isa = PBXGroup;
+			children = (
+				58F389AD1E8BC612000904EF /* Attribute */,
+				58F389BC1E8BC613000904EF /* Dinas.h */,
+				58F389C81E8BC613000904EF /* UIView+DINAdditions.h */,
+				58F389C91E8BC613000904EF /* UIView+DINAdditions.m */,
+				58F389C31E8BC613000904EF /* DINStructureMaker.h */,
+				58F389C41E8BC613000904EF /* DINStructureMaker.m */,
+				58F389C11E8BC613000904EF /* DINStructure.h */,
+				58F389C21E8BC613000904EF /* DINStructure.m */,
+				58F389BF1E8BC613000904EF /* DINInstruction.h */,
+				58F389C01E8BC613000904EF /* DINInstruction.m */,
+				58F389BA1E8BC613000904EF /* DINAnalyzeUtil.h */,
+				58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */,
+				58F389C71E8BC613000904EF /* DINTargetProtocol.h */,
+				58F389C51E8BC613000904EF /* DINTarget.h */,
+				58F389C61E8BC613000904EF /* DINTarget.m */,
+				58F389BD1E8BC613000904EF /* DINBoxValue.h */,
+				58F389BE1E8BC613000904EF /* DINBoxValue.m */,
+			);
+			path = Dinas;
+			sourceTree = "<group>";
+		};
+		58F389AD1E8BC612000904EF /* Attribute */ = {
+			isa = PBXGroup;
+			children = (
+				58F389AE1E8BC612000904EF /* DINAttribute.h */,
+				58F389AF1E8BC612000904EF /* DINAttribute.m */,
+				58F389B01E8BC612000904EF /* DINEqualToAttribute.h */,
+				58F389B11E8BC612000904EF /* DINEqualToAttribute.m */,
+				58F389B21E8BC612000904EF /* DINFrameAttribute.h */,
+				58F389B31E8BC612000904EF /* DINFrameAttribute.m */,
+				58F389B41E8BC612000904EF /* DINMultiplierAttribute.h */,
+				58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */,
+				58F389B61E8BC612000904EF /* DINOffsetAttribute.h */,
+				58F389B71E8BC612000904EF /* DINOffsetAttribute.m */,
+				58F389B81E8BC613000904EF /* DINOperationAttribute.h */,
+				58F389B91E8BC613000904EF /* DINOperationAttribute.m */,
+			);
+			path = Attribute;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		586CD10E1E8113DA0049731C /* Dinas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586CD1261E8113DA0049731C /* Build configuration list for PBXNativeTarget "Dinas" */;
+			buildPhases = (
+				586CD10B1E8113DA0049731C /* Sources */,
+				586CD10C1E8113DA0049731C /* Frameworks */,
+				586CD10D1E8113DA0049731C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dinas;
+			productName = Dinas;
+			productReference = 586CD10F1E8113DA0049731C /* Dinas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586CD1071E8113DA0049731C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ziooooo;
+				TargetAttributes = {
+					586CD10E1E8113DA0049731C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 586CD10A1E8113DA0049731C /* Build configuration list for PBXProject "Dinas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586CD1061E8113DA0049731C;
+			productRefGroup = 586CD1101E8113DA0049731C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586CD10E1E8113DA0049731C /* Dinas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586CD10D1E8113DA0049731C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586CD1221E8113DA0049731C /* LaunchScreen.storyboard in Resources */,
+				586CD11F1E8113DA0049731C /* Assets.xcassets in Resources */,
+				586CD11D1E8113DA0049731C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586CD10B1E8113DA0049731C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F389CE1E8BC613000904EF /* DINOffsetAttribute.m in Sources */,
+				58F389D61E8BC613000904EF /* UIView+DINAdditions.m in Sources */,
+				58F389D21E8BC613000904EF /* DINInstruction.m in Sources */,
+				586CD11A1E8113DA0049731C /* ViewController.m in Sources */,
+				58F389CD1E8BC613000904EF /* DINMultiplierAttribute.m in Sources */,
+				58F389CC1E8BC613000904EF /* DINFrameAttribute.m in Sources */,
+				58F389D31E8BC613000904EF /* DINStructure.m in Sources */,
+				58F389D01E8BC613000904EF /* DINAnalyzeUtil.m in Sources */,
+				586CD1171E8113DA0049731C /* AppDelegate.m in Sources */,
+				58F389D51E8BC613000904EF /* DINTarget.m in Sources */,
+				58F389CB1E8BC613000904EF /* DINEqualToAttribute.m in Sources */,
+				58F389CF1E8BC613000904EF /* DINOperationAttribute.m in Sources */,
+				58F389D41E8BC613000904EF /* DINStructureMaker.m in Sources */,
+				58F389D11E8BC613000904EF /* DINBoxValue.m in Sources */,
+				58F389CA1E8BC613000904EF /* DINAttribute.m in Sources */,
+				586CD1141E8113DA0049731C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		586CD11B1E8113DA0049731C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586CD11C1E8113DA0049731C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		586CD1201E8113DA0049731C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586CD1211E8113DA0049731C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586CD1241E8113DA0049731C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		586CD1251E8113DA0049731C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		586CD1271E8113DA0049731C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dinas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.Dinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		586CD1281E8113DA0049731C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Dinas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zio.Dinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586CD10A1E8113DA0049731C /* Build configuration list for PBXProject "Dinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586CD1241E8113DA0049731C /* Debug */,
+				586CD1251E8113DA0049731C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		586CD1261E8113DA0049731C /* Build configuration list for PBXNativeTarget "Dinas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586CD1271E8113DA0049731C /* Debug */,
+				586CD1281E8113DA0049731C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586CD1071E8113DA0049731C /* Project object */;
+}
