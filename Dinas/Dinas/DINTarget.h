@@ -23,7 +23,7 @@ typedef NS_ENUM(NSInteger ,DINTargetType) {
 
 @interface DINTarget : NSObject<DINTargetProtocol>
 
-@property (weak ,nonatomic ,readonly)id target;
+@property (strong ,nonatomic ,readonly)id target;
 
 @property (assign ,nonatomic)DINTargetType targetType;
 

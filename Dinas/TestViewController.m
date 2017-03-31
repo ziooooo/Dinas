@@ -1,24 +1,21 @@
 //
-//  ViewController.m
+//  TestViewController.m
 //  Dinas
 //
-//  Created by ziooooo on 17/3/21.
+//  Created by ziooooo on 2017/3/30.
 //  Copyright © 2017年 ziooooo. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "Dinas.h"
 #import "TestViewController.h"
-
-@interface ViewController ()
+#import "Dinas.h"
+@interface TestViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
     UIView *view1 = [[UIView alloc] init];
     view1.backgroundColor = [UIColor redColor];
     [self.view addSubview:view1];
@@ -28,7 +25,7 @@
         make.build();
     }];
     
-
+    
     UIView *view2 = [[UIView alloc] init];
     view2.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view2];
@@ -37,7 +34,7 @@
         make.center.equalTo(self.view);
         make.build();
     }];
-
+    
     UIView *view3 = [[UIView alloc] init];
     view3.backgroundColor = [UIColor blueColor];
     [view1 addSubview:view3];
@@ -51,11 +48,21 @@
     }];
 }
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self.navigationController pushViewController:[[TestViewController alloc] init] animated:YES];
-    
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
+-(void)dealloc{
+    NSLog(@"dealloc");
+}
+/*
+#pragma mark - Navigation
 
-
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

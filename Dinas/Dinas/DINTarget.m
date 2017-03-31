@@ -11,7 +11,7 @@
 
 @interface DINTarget()<NSMutableCopying>
 
-@property (weak ,nonatomic ,readwrite)id target;
+@property (strong ,nonatomic ,readwrite)id target;
 
 @end
 

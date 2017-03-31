@@ -71,7 +71,7 @@
         }
         else{
             for (DINInstruction *ins in self.insTransfer) {
-                if ([attribute isKindOfClass:[DINEqualToAttribute class]]) ins.equalToAttr = (DINEqualToAttribute *)attribute;
+                if ([attribute isKindOfClass:[DINEqualToAttribute class]]) ins.equalToAttr = (DINEqualToAttribute *)attribute.mutableCopy;
                 if ([attribute isKindOfClass:[DINMultiplierAttribute class]]) ins.multiplierAttr = (DINMultiplierAttribute *)attribute;
                 if ([attribute isKindOfClass:[DINOffsetAttribute class]]) ins.offsetAttr = (DINOffsetAttribute *)attribute;
             }
