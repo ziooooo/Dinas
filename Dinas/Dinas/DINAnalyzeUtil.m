@@ -106,7 +106,7 @@
             case kDINFrameAttributeTypeBottom:{
                 [insYArr enumerateObjectsUsingBlock:^(DINInstruction *  _Nonnull subIns, NSUInteger idx, BOOL * _Nonnull subStop) {
                     if (subIns.attrType == kDINFrameAttributeTypeCenterY || subIns.attrType == kDINFrameAttributeTypeHeight) {
-                        insYDic[DIN_HEIGHT_KEY] = ins;
+                        insYDic[DIN_BOTTOM_KEY] = ins;
                         insYDic[subIns.attrType == kDINFrameAttributeTypeCenterY?DIN_CENTERY_KEY:DIN_HEIGHT_KEY] = subIns;
                         *subStop = YES;
                         *stop = YES;

@@ -93,7 +93,7 @@
     
     //分析 x y w h 所需条件
     NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithInstructions:self.insArray];
-    
+
     //分别设置 x y w h
     
     CGRect originalFrame = self.view.frame;

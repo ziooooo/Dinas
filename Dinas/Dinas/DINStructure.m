@@ -23,7 +23,7 @@
 {
     return ^DINStructure *(){
         if (![self.delegate isKindOfClass:DINStructureMaker.class]) NSAssert(0, @"error delegate");
-        DINStructureMaker *maker = self.delegate;
+        DINStructureMaker *maker = (DINStructureMaker *)self.delegate;
         DINTarget *target = [[DINTarget alloc] initWithTarget:maker.view.superview targetType:kDINTargetTypeNormal];
         DINEqualToAttribute *attr = [DINEqualToAttribute attributeWithTarget:[target createTarget]];
         return [self.delegate structure:self addStructureWithAttribute:attr];

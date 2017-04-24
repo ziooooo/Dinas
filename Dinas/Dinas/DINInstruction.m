@@ -35,10 +35,9 @@
                 return boxValue;
                 break;
             default:
+                return 0;
                 break;
         }
-        
-        
     }
 
     UIView *targetView = self.target.target;
