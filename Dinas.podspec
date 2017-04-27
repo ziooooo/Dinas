@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ziooooo/Dinas.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Dinas/Dinas/*.{h,m}"
+  s.source_files  = "Dinas/Dinas/**"
 
   s.ios.frameworks = 'Foundation', 'UIKit'
 
