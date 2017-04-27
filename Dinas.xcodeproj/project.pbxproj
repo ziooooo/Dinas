@@ -13,19 +13,20 @@
 		586CD11D1E8113DA0049731C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586CD11B1E8113DA0049731C /* Main.storyboard */; };
 		586CD11F1E8113DA0049731C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 586CD11E1E8113DA0049731C /* Assets.xcassets */; };
 		586CD1221E8113DA0049731C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 586CD1201E8113DA0049731C /* LaunchScreen.storyboard */; };
-		58F389CA1E8BC613000904EF /* DINAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389AF1E8BC612000904EF /* DINAttribute.m */; };
-		58F389CB1E8BC613000904EF /* DINEqualToAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B11E8BC612000904EF /* DINEqualToAttribute.m */; };
-		58F389CC1E8BC613000904EF /* DINFrameAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B31E8BC612000904EF /* DINFrameAttribute.m */; };
-		58F389CD1E8BC613000904EF /* DINMultiplierAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */; };
-		58F389CE1E8BC613000904EF /* DINOffsetAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B71E8BC612000904EF /* DINOffsetAttribute.m */; };
-		58F389CF1E8BC613000904EF /* DINOperationAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389B91E8BC613000904EF /* DINOperationAttribute.m */; };
-		58F389D01E8BC613000904EF /* DINAnalyzeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */; };
-		58F389D11E8BC613000904EF /* DINBoxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389BE1E8BC613000904EF /* DINBoxValue.m */; };
-		58F389D21E8BC613000904EF /* DINInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C01E8BC613000904EF /* DINInstruction.m */; };
-		58F389D31E8BC613000904EF /* DINStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C21E8BC613000904EF /* DINStructure.m */; };
-		58F389D41E8BC613000904EF /* DINStructureMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C41E8BC613000904EF /* DINStructureMaker.m */; };
-		58F389D51E8BC613000904EF /* DINTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C61E8BC613000904EF /* DINTarget.m */; };
-		58F389D61E8BC613000904EF /* UIView+DINAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F389C91E8BC613000904EF /* UIView+DINAdditions.m */; };
+		58B0BAFC1EB1F87700D50F34 /* DINAnalyzeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE11EB1F87600D50F34 /* DINAnalyzeUtil.m */; };
+		58B0BAFD1EB1F87700D50F34 /* DINAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE41EB1F87700D50F34 /* DINAttribute.m */; };
+		58B0BAFE1EB1F87700D50F34 /* DINBoxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */; };
+		58B0BAFF1EB1F87700D50F34 /* DINComposeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */; };
+		58B0BB001EB1F87700D50F34 /* DINEqualToAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */; };
+		58B0BB011EB1F87700D50F34 /* DINFrameAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEC1EB1F87700D50F34 /* DINFrameAttribute.m */; };
+		58B0BB021EB1F87700D50F34 /* DINInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEE1EB1F87700D50F34 /* DINInstruction.m */; };
+		58B0BB031EB1F87700D50F34 /* DINMultiplierAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAF01EB1F87700D50F34 /* DINMultiplierAttribute.m */; };
+		58B0BB041EB1F87700D50F34 /* DINOffsetAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAF21EB1F87700D50F34 /* DINOffsetAttribute.m */; };
+		58B0BB051EB1F87700D50F34 /* DINOperationAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAF41EB1F87700D50F34 /* DINOperationAttribute.m */; };
+		58B0BB061EB1F87700D50F34 /* DINStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAF61EB1F87700D50F34 /* DINStructure.m */; };
+		58B0BB071EB1F87700D50F34 /* DINStructureMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAF81EB1F87700D50F34 /* DINStructureMaker.m */; };
+		58B0BB081EB1F87700D50F34 /* DINTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAFA1EB1F87700D50F34 /* DINTarget.m */; };
+		58B0BB0B1EB1F89600D50F34 /* UIView+DINAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BB0A1EB1F89600D50F34 /* UIView+DINAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,34 +40,36 @@
 		586CD11E1E8113DA0049731C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		586CD1211E8113DA0049731C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		586CD1231E8113DA0049731C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58F389AE1E8BC612000904EF /* DINAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAttribute.h; sourceTree = "<group>"; };
-		58F389AF1E8BC612000904EF /* DINAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAttribute.m; sourceTree = "<group>"; };
-		58F389B01E8BC612000904EF /* DINEqualToAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINEqualToAttribute.h; sourceTree = "<group>"; };
-		58F389B11E8BC612000904EF /* DINEqualToAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINEqualToAttribute.m; sourceTree = "<group>"; };
-		58F389B21E8BC612000904EF /* DINFrameAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINFrameAttribute.h; sourceTree = "<group>"; };
-		58F389B31E8BC612000904EF /* DINFrameAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINFrameAttribute.m; sourceTree = "<group>"; };
-		58F389B41E8BC612000904EF /* DINMultiplierAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINMultiplierAttribute.h; sourceTree = "<group>"; };
-		58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINMultiplierAttribute.m; sourceTree = "<group>"; };
-		58F389B61E8BC612000904EF /* DINOffsetAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOffsetAttribute.h; sourceTree = "<group>"; };
-		58F389B71E8BC612000904EF /* DINOffsetAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOffsetAttribute.m; sourceTree = "<group>"; };
-		58F389B81E8BC613000904EF /* DINOperationAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOperationAttribute.h; sourceTree = "<group>"; };
-		58F389B91E8BC613000904EF /* DINOperationAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOperationAttribute.m; sourceTree = "<group>"; };
-		58F389BA1E8BC613000904EF /* DINAnalyzeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAnalyzeUtil.h; sourceTree = "<group>"; };
-		58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAnalyzeUtil.m; sourceTree = "<group>"; };
-		58F389BC1E8BC613000904EF /* Dinas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dinas.h; sourceTree = "<group>"; };
-		58F389BD1E8BC613000904EF /* DINBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINBoxValue.h; sourceTree = "<group>"; };
-		58F389BE1E8BC613000904EF /* DINBoxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINBoxValue.m; sourceTree = "<group>"; };
-		58F389BF1E8BC613000904EF /* DINInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINInstruction.h; sourceTree = "<group>"; };
-		58F389C01E8BC613000904EF /* DINInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINInstruction.m; sourceTree = "<group>"; };
-		58F389C11E8BC613000904EF /* DINStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructure.h; sourceTree = "<group>"; };
-		58F389C21E8BC613000904EF /* DINStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructure.m; sourceTree = "<group>"; };
-		58F389C31E8BC613000904EF /* DINStructureMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructureMaker.h; sourceTree = "<group>"; };
-		58F389C41E8BC613000904EF /* DINStructureMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructureMaker.m; sourceTree = "<group>"; };
-		58F389C51E8BC613000904EF /* DINTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTarget.h; sourceTree = "<group>"; };
-		58F389C61E8BC613000904EF /* DINTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINTarget.m; sourceTree = "<group>"; };
-		58F389C71E8BC613000904EF /* DINTargetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTargetProtocol.h; sourceTree = "<group>"; };
-		58F389C81E8BC613000904EF /* UIView+DINAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DINAdditions.h"; sourceTree = "<group>"; };
-		58F389C91E8BC613000904EF /* UIView+DINAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DINAdditions.m"; sourceTree = "<group>"; };
+		58B0BAE01EB1F87600D50F34 /* DINAnalyzeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAnalyzeUtil.h; sourceTree = "<group>"; };
+		58B0BAE11EB1F87600D50F34 /* DINAnalyzeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAnalyzeUtil.m; sourceTree = "<group>"; };
+		58B0BAE21EB1F87600D50F34 /* Dinas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dinas.h; sourceTree = "<group>"; };
+		58B0BAE31EB1F87700D50F34 /* DINAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINAttribute.h; sourceTree = "<group>"; };
+		58B0BAE41EB1F87700D50F34 /* DINAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAttribute.m; sourceTree = "<group>"; };
+		58B0BAE51EB1F87700D50F34 /* DINBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINBoxValue.h; sourceTree = "<group>"; };
+		58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINBoxValue.m; sourceTree = "<group>"; };
+		58B0BAE71EB1F87700D50F34 /* DINComposeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINComposeUtil.h; sourceTree = "<group>"; };
+		58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINComposeUtil.m; sourceTree = "<group>"; };
+		58B0BAE91EB1F87700D50F34 /* DINEqualToAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINEqualToAttribute.h; sourceTree = "<group>"; };
+		58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINEqualToAttribute.m; sourceTree = "<group>"; };
+		58B0BAEB1EB1F87700D50F34 /* DINFrameAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINFrameAttribute.h; sourceTree = "<group>"; };
+		58B0BAEC1EB1F87700D50F34 /* DINFrameAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINFrameAttribute.m; sourceTree = "<group>"; };
+		58B0BAED1EB1F87700D50F34 /* DINInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINInstruction.h; sourceTree = "<group>"; };
+		58B0BAEE1EB1F87700D50F34 /* DINInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINInstruction.m; sourceTree = "<group>"; };
+		58B0BAEF1EB1F87700D50F34 /* DINMultiplierAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINMultiplierAttribute.h; sourceTree = "<group>"; };
+		58B0BAF01EB1F87700D50F34 /* DINMultiplierAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINMultiplierAttribute.m; sourceTree = "<group>"; };
+		58B0BAF11EB1F87700D50F34 /* DINOffsetAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOffsetAttribute.h; sourceTree = "<group>"; };
+		58B0BAF21EB1F87700D50F34 /* DINOffsetAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOffsetAttribute.m; sourceTree = "<group>"; };
+		58B0BAF31EB1F87700D50F34 /* DINOperationAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINOperationAttribute.h; sourceTree = "<group>"; };
+		58B0BAF41EB1F87700D50F34 /* DINOperationAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINOperationAttribute.m; sourceTree = "<group>"; };
+		58B0BAF51EB1F87700D50F34 /* DINStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructure.h; sourceTree = "<group>"; };
+		58B0BAF61EB1F87700D50F34 /* DINStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructure.m; sourceTree = "<group>"; };
+		58B0BAF71EB1F87700D50F34 /* DINStructureMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINStructureMaker.h; sourceTree = "<group>"; };
+		58B0BAF81EB1F87700D50F34 /* DINStructureMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINStructureMaker.m; sourceTree = "<group>"; };
+		58B0BAF91EB1F87700D50F34 /* DINTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTarget.h; sourceTree = "<group>"; };
+		58B0BAFA1EB1F87700D50F34 /* DINTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINTarget.m; sourceTree = "<group>"; };
+		58B0BAFB1EB1F87700D50F34 /* DINTargetProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINTargetProtocol.h; sourceTree = "<group>"; };
+		58B0BB091EB1F89600D50F34 /* UIView+DINAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DINAdditions.h"; sourceTree = "<group>"; };
+		58B0BB0A1EB1F89600D50F34 /* UIView+DINAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DINAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +102,7 @@
 		586CD1111E8113DA0049731C /* Dinas */ = {
 			isa = PBXGroup;
 			children = (
-				58F389AC1E8BC612000904EF /* Dinas */,
+				58B0BADF1EB1F87600D50F34 /* Dinas */,
 				586CD1151E8113DA0049731C /* AppDelegate.h */,
 				586CD1161E8113DA0049731C /* AppDelegate.m */,
 				586CD1181E8113DA0049731C /* ViewController.h */,
@@ -121,47 +124,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		58F389AC1E8BC612000904EF /* Dinas */ = {
+		58B0BADF1EB1F87600D50F34 /* Dinas */ = {
 			isa = PBXGroup;
 			children = (
-				58F389AD1E8BC612000904EF /* Attribute */,
-				58F389BC1E8BC613000904EF /* Dinas.h */,
-				58F389C81E8BC613000904EF /* UIView+DINAdditions.h */,
-				58F389C91E8BC613000904EF /* UIView+DINAdditions.m */,
-				58F389C31E8BC613000904EF /* DINStructureMaker.h */,
-				58F389C41E8BC613000904EF /* DINStructureMaker.m */,
-				58F389C11E8BC613000904EF /* DINStructure.h */,
-				58F389C21E8BC613000904EF /* DINStructure.m */,
-				58F389BF1E8BC613000904EF /* DINInstruction.h */,
-				58F389C01E8BC613000904EF /* DINInstruction.m */,
-				58F389BA1E8BC613000904EF /* DINAnalyzeUtil.h */,
-				58F389BB1E8BC613000904EF /* DINAnalyzeUtil.m */,
-				58F389C71E8BC613000904EF /* DINTargetProtocol.h */,
-				58F389C51E8BC613000904EF /* DINTarget.h */,
-				58F389C61E8BC613000904EF /* DINTarget.m */,
-				58F389BD1E8BC613000904EF /* DINBoxValue.h */,
-				58F389BE1E8BC613000904EF /* DINBoxValue.m */,
+				58B0BB091EB1F89600D50F34 /* UIView+DINAdditions.h */,
+				58B0BB0A1EB1F89600D50F34 /* UIView+DINAdditions.m */,
+				58B0BAE01EB1F87600D50F34 /* DINAnalyzeUtil.h */,
+				58B0BAE11EB1F87600D50F34 /* DINAnalyzeUtil.m */,
+				58B0BAE21EB1F87600D50F34 /* Dinas.h */,
+				58B0BAE31EB1F87700D50F34 /* DINAttribute.h */,
+				58B0BAE41EB1F87700D50F34 /* DINAttribute.m */,
+				58B0BAE51EB1F87700D50F34 /* DINBoxValue.h */,
+				58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */,
+				58B0BAE71EB1F87700D50F34 /* DINComposeUtil.h */,
+				58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */,
+				58B0BAE91EB1F87700D50F34 /* DINEqualToAttribute.h */,
+				58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */,
+				58B0BAEB1EB1F87700D50F34 /* DINFrameAttribute.h */,
+				58B0BAEC1EB1F87700D50F34 /* DINFrameAttribute.m */,
+				58B0BAED1EB1F87700D50F34 /* DINInstruction.h */,
+				58B0BAEE1EB1F87700D50F34 /* DINInstruction.m */,
+				58B0BAEF1EB1F87700D50F34 /* DINMultiplierAttribute.h */,
+				58B0BAF01EB1F87700D50F34 /* DINMultiplierAttribute.m */,
+				58B0BAF11EB1F87700D50F34 /* DINOffsetAttribute.h */,
+				58B0BAF21EB1F87700D50F34 /* DINOffsetAttribute.m */,
+				58B0BAF31EB1F87700D50F34 /* DINOperationAttribute.h */,
+				58B0BAF41EB1F87700D50F34 /* DINOperationAttribute.m */,
+				58B0BAF51EB1F87700D50F34 /* DINStructure.h */,
+				58B0BAF61EB1F87700D50F34 /* DINStructure.m */,
+				58B0BAF71EB1F87700D50F34 /* DINStructureMaker.h */,
+				58B0BAF81EB1F87700D50F34 /* DINStructureMaker.m */,
+				58B0BAF91EB1F87700D50F34 /* DINTarget.h */,
+				58B0BAFA1EB1F87700D50F34 /* DINTarget.m */,
+				58B0BAFB1EB1F87700D50F34 /* DINTargetProtocol.h */,
 			);
 			path = Dinas;
-			sourceTree = "<group>";
-		};
-		58F389AD1E8BC612000904EF /* Attribute */ = {
-			isa = PBXGroup;
-			children = (
-				58F389AE1E8BC612000904EF /* DINAttribute.h */,
-				58F389AF1E8BC612000904EF /* DINAttribute.m */,
-				58F389B01E8BC612000904EF /* DINEqualToAttribute.h */,
-				58F389B11E8BC612000904EF /* DINEqualToAttribute.m */,
-				58F389B21E8BC612000904EF /* DINFrameAttribute.h */,
-				58F389B31E8BC612000904EF /* DINFrameAttribute.m */,
-				58F389B41E8BC612000904EF /* DINMultiplierAttribute.h */,
-				58F389B51E8BC612000904EF /* DINMultiplierAttribute.m */,
-				58F389B61E8BC612000904EF /* DINOffsetAttribute.h */,
-				58F389B71E8BC612000904EF /* DINOffsetAttribute.m */,
-				58F389B81E8BC613000904EF /* DINOperationAttribute.h */,
-				58F389B91E8BC613000904EF /* DINOperationAttribute.m */,
-			);
-			path = Attribute;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,21 +233,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58F389CE1E8BC613000904EF /* DINOffsetAttribute.m in Sources */,
-				58F389D61E8BC613000904EF /* UIView+DINAdditions.m in Sources */,
-				58F389D21E8BC613000904EF /* DINInstruction.m in Sources */,
+				58B0BAFC1EB1F87700D50F34 /* DINAnalyzeUtil.m in Sources */,
+				58B0BB0B1EB1F89600D50F34 /* UIView+DINAdditions.m in Sources */,
 				586CD11A1E8113DA0049731C /* ViewController.m in Sources */,
-				58F389CD1E8BC613000904EF /* DINMultiplierAttribute.m in Sources */,
-				58F389CC1E8BC613000904EF /* DINFrameAttribute.m in Sources */,
-				58F389D31E8BC613000904EF /* DINStructure.m in Sources */,
-				58F389D01E8BC613000904EF /* DINAnalyzeUtil.m in Sources */,
+				58B0BB031EB1F87700D50F34 /* DINMultiplierAttribute.m in Sources */,
+				58B0BB001EB1F87700D50F34 /* DINEqualToAttribute.m in Sources */,
 				586CD1171E8113DA0049731C /* AppDelegate.m in Sources */,
-				58F389D51E8BC613000904EF /* DINTarget.m in Sources */,
-				58F389CB1E8BC613000904EF /* DINEqualToAttribute.m in Sources */,
-				58F389CF1E8BC613000904EF /* DINOperationAttribute.m in Sources */,
-				58F389D41E8BC613000904EF /* DINStructureMaker.m in Sources */,
-				58F389D11E8BC613000904EF /* DINBoxValue.m in Sources */,
-				58F389CA1E8BC613000904EF /* DINAttribute.m in Sources */,
+				58B0BB061EB1F87700D50F34 /* DINStructure.m in Sources */,
+				58B0BB051EB1F87700D50F34 /* DINOperationAttribute.m in Sources */,
+				58B0BAFE1EB1F87700D50F34 /* DINBoxValue.m in Sources */,
+				58B0BB081EB1F87700D50F34 /* DINTarget.m in Sources */,
+				58B0BB011EB1F87700D50F34 /* DINFrameAttribute.m in Sources */,
+				58B0BB021EB1F87700D50F34 /* DINInstruction.m in Sources */,
+				58B0BB071EB1F87700D50F34 /* DINStructureMaker.m in Sources */,
+				58B0BAFF1EB1F87700D50F34 /* DINComposeUtil.m in Sources */,
+				58B0BB041EB1F87700D50F34 /* DINOffsetAttribute.m in Sources */,
+				58B0BAFD1EB1F87700D50F34 /* DINAttribute.m in Sources */,
 				586CD1141E8113DA0049731C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
