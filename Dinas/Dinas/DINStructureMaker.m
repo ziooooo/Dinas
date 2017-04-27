@@ -9,7 +9,6 @@
 #import "DINStructureMaker.h"
 #import "DINInstruction.h"
 #import "DINAnalyzeUtil.h"
-#import "DINTarget.h"
 
 @interface DINStructureMaker()<DINStructureDelegate>
 
@@ -17,11 +16,7 @@
 
 @property (strong ,nonatomic)DINStructure *currentStruture;
 
-@property (strong ,nonatomic)NSMutableArray *insTempArray;
-
-@property (strong ,nonatomic)NSMutableArray *insTransfer;
-
-@property (strong ,nonatomic)NSMutableArray *insArray;
+@property (strong ,nonatomic)NSMutableArray *attributeArray;
 
 @end
 
@@ -41,43 +36,9 @@
 
 -(DINStructure *)structure:(DINStructure *)structure addStructureWithAttribute:(DINAttribute *)attribute
 {
-    //拿到了所有的attr 咋处理？
-    //组合为指令
-    if ([attribute isKindOfClass:[DINFrameAttribute class]]) {
-        
-        //如果中转站有指令，转移入库
-        if (self.insTransfer.count){
-            [self.insArray addObjectsFromArray:self.insTransfer];
-            //清空中转站
-            [self.insTransfer removeAllObjects];
-        }
-        //创建新指令加入临时数组
-        DINInstruction *instrction = [[DINInstruction alloc] initWithFrameAttr:(DINFrameAttribute *)attribute];
-        [self.insTempArray addObject:instrction];
-    }
-    else{
-        
-        if (!self.insTransfer.count) {//中转站没内容，从临时数组中取
-            for (DINInstruction *ins in self.insTempArray) {
-                if ([attribute isKindOfClass:[DINEqualToAttribute class]]) ins.equalToAttr = (DINEqualToAttribute *)attribute.mutableCopy;
-                if ([attribute isKindOfClass:[DINMultiplierAttribute class]]) ins.multiplierAttr = (DINMultiplierAttribute *)attribute;
-                if ([attribute isKindOfClass:[DINOffsetAttribute class]]) ins.offsetAttr = (DINOffsetAttribute *)attribute;
-                
-                //加入中转站
-                [self.insTransfer addObject:ins];
-            }
-            //清空临时数据
-            [self.insTempArray removeAllObjects];
-        }
-        else{
-            for (DINInstruction *ins in self.insTransfer) {
-                if ([attribute isKindOfClass:[DINEqualToAttribute class]]) ins.equalToAttr = (DINEqualToAttribute *)attribute.mutableCopy;
-                if ([attribute isKindOfClass:[DINMultiplierAttribute class]]) ins.multiplierAttr = (DINMultiplierAttribute *)attribute;
-                if ([attribute isKindOfClass:[DINOffsetAttribute class]]) ins.offsetAttr = (DINOffsetAttribute *)attribute;
-            }
-        }
-    }
     
+    //保存所有的attr build时处理
+    [self.attributeArray addObject:attribute];
     
     return structure;
 }
@@ -86,13 +47,9 @@
 
 -(void (^)())build
 {
-    //将中转站剩余指令转移入库
-    [self.insArray addObjectsFromArray:self.insTransfer];
-    self.insTransfer = nil;
-    self.insTempArray = nil;
-    
+
     //分析 x y w h 所需条件
-    NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithInstructions:self.insArray];
+    NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithAttributes:self.attributeArray];
 
     //分别设置 x y w h
     
@@ -238,7 +195,7 @@
 
 -(void (^)())debug
 {
-    NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithInstructions:self.insArray];
+    NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithAttributes:self.attributeArray];
     if (![analyzeResult[DIN_X_ANALYZE_KEY] count]) {
         NSLog(@"X Not Sure");
     }
@@ -296,28 +253,12 @@ DIN_ATTR_FORWARD(centerY)
     return _currentStruture;
 }
 
--(NSMutableArray *)insTempArray
+-(NSMutableArray *)attributeArray
 {
-    if (!_insTempArray) {
-        _insTempArray = [NSMutableArray array];
+    if (!_attributeArray) {
+        _attributeArray = [NSMutableArray array];
     }
-    return _insTempArray;
-}
-
--(NSMutableArray *)insTransfer
-{
-    if (!_insTransfer) {
-        _insTransfer = [NSMutableArray array];
-    }
-    return _insTransfer;
-}
-
--(NSMutableArray *)insArray
-{
-    if (!_insArray) {
-        _insArray = [NSMutableArray array];
-    }
-    return _insArray;
+    return _attributeArray;
 }
 
 @end

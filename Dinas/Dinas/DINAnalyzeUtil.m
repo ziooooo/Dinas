@@ -8,8 +8,52 @@
 
 #import "DINAnalyzeUtil.h"
 #import "DINInstruction.h"
+#import "DINFrameAttribute.h"
+#import "DINEqualToAttribute.h"
+#import "DINMultiplierAttribute.h"
+#import "DINOffsetAttribute.h"
 
 @implementation DINAnalyzeUtil
+
++(NSDictionary *)analyzeWithAttributes:(NSArray *)attributes
+{
+    NSMutableArray *insTransfer = [NSMutableArray array];
+    NSMutableArray *insResultArr = [NSMutableArray array];
+    
+    __block BOOL describeEnd = NO;
+    
+    [attributes enumerateObjectsUsingBlock:^(DINAttribute *  _Nonnull attr, NSUInteger idx, BOOL * _Nonnull stop) {
+        if ([attr isKindOfClass:[DINFrameAttribute class]]) {
+            
+            if (describeEnd) {
+                [insResultArr addObjectsFromArray:insTransfer];
+                [insTransfer removeAllObjects];
+            }
+            
+            describeEnd = NO;
+            
+            DINInstruction *instrction = [[DINInstruction alloc] initWithFrameAttr:(DINFrameAttribute *)attr];
+            [insTransfer addObject:instrction];
+        }
+        else{
+            
+            describeEnd = YES;
+            
+            for (DINInstruction *ins in insTransfer) {
+                if ([attr isKindOfClass:[DINEqualToAttribute class]]) ins.equalToAttr = (DINEqualToAttribute *)attr.mutableCopy;
+                if ([attr isKindOfClass:[DINMultiplierAttribute class]]) ins.multiplierAttr = (DINMultiplierAttribute *)attr;
+                if ([attr isKindOfClass:[DINOffsetAttribute class]]) ins.offsetAttr = (DINOffsetAttribute *)attr;
+            }
+        }
+    }];
+    
+    if (describeEnd) {
+        [insResultArr addObjectsFromArray:insTransfer];
+        insTransfer = nil;
+    }
+    
+    return [self analyzeWithInstructions:insResultArr];
+}
 
 +(NSDictionary *)analyzeWithInstructions:(NSArray *)instructions
 {

@@ -25,6 +25,6 @@ static NSString *const DIN_CENTERY_KEY  =   @"DIN_CENTERY_KEY";
 
 @interface DINAnalyzeUtil : NSObject
 
-+(NSDictionary *)analyzeWithInstructions:(NSArray *)instructions;
++(NSDictionary *)analyzeWithAttributes:(NSArray *)attributes;
 
 @end

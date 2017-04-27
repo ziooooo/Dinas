@@ -6,4 +6,9 @@
 //  Copyright © 2017年 ziooooo. All rights reserved.
 //
 
+
+/*
+ * Reference Masonry: https://github.com/SnapKit/Masonry
+ */
+
 #import "UIView+DINAdditions.h"

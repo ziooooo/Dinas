@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		582467E41E8D1D87005AC28A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582467E31E8D1D87005AC28A /* TestViewController.m */; };
 		586CD1141E8113DA0049731C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1131E8113DA0049731C /* main.m */; };
 		586CD1171E8113DA0049731C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1161E8113DA0049731C /* AppDelegate.m */; };
 		586CD11A1E8113DA0049731C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586CD1191E8113DA0049731C /* ViewController.m */; };
@@ -30,8 +29,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		582467E21E8D1D87005AC28A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
-		582467E31E8D1D87005AC28A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		586CD10F1E8113DA0049731C /* Dinas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		586CD1131E8113DA0049731C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		586CD1151E8113DA0049731C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,8 +109,6 @@
 				586CD1201E8113DA0049731C /* LaunchScreen.storyboard */,
 				586CD1231E8113DA0049731C /* Info.plist */,
 				586CD1121E8113DA0049731C /* Supporting Files */,
-				582467E21E8D1D87005AC28A /* TestViewController.h */,
-				582467E31E8D1D87005AC28A /* TestViewController.m */,
 			);
 			path = Dinas;
 			sourceTree = "<group>";
@@ -253,7 +248,6 @@
 				58F389D51E8BC613000904EF /* DINTarget.m in Sources */,
 				58F389CB1E8BC613000904EF /* DINEqualToAttribute.m in Sources */,
 				58F389CF1E8BC613000904EF /* DINOperationAttribute.m in Sources */,
-				582467E41E8D1D87005AC28A /* TestViewController.m in Sources */,
 				58F389D41E8BC613000904EF /* DINStructureMaker.m in Sources */,
 				58F389D11E8BC613000904EF /* DINBoxValue.m in Sources */,
 				58F389CA1E8BC613000904EF /* DINAttribute.m in Sources */,
