@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "Build your view's frame, like Masonry."
   s.description  = %{
-    Build your view's frame, like Masonry.
+    Build your view's frame, like Masonry...
   }
 
   s.homepage     = "https://github.com/ziooooo/Dinas"
