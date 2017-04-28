@@ -1,6 +1,6 @@
 
 # Dinas
-##### Build your view's frame, like Masonry.
+#### Build your view's frame, like Masonry.
 
 
 ## Installation
@@ -18,10 +18,10 @@ UIView *head = [[UIView alloc] init];
 head.backgroundColor = [UIColor blackColor];
 [self.view addSubview:head];
 [head din_makeStructures:^(DINStructureMaker *make) {
-make.centerX.equalTo(self.view);
-make.top.equalToSuperview().offset(100);
-make.size.din_equalTo(CGSizeMake(200, 200));
-make.build();
+    make.centerX.equalTo(self.view);
+    make.top.equalToSuperview().offset(100);
+    make.size.din_equalTo(CGSizeMake(200, 200));
+    make.build();
 }];
 ```
 Before `din_makeStructures..` must has `superview`
