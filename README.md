@@ -7,7 +7,7 @@
 Use CocoaPods.
 
 In your Podfile
->`pod 'Masonry'`
+>`pod 'Dinas'`
 
 Or download and copy `Dinas` to your project
 
@@ -26,4 +26,4 @@ head.backgroundColor = [UIColor blackColor];
 ```
 Before `din_makeStructures..` must has `superview`
 ## Implementation effect
-![effect](http://upload-images.jianshu.io/upload_images/1659260-d2c441c4bd784abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![effect](https://github.com/ziooooo/Dinas/blob/master/effect.png)
