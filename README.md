@@ -21,7 +21,6 @@ head.backgroundColor = [UIColor blackColor];
     make.centerX.equalTo(self.view);
     make.top.equalToSuperview().offset(100);
     make.size.din_equalTo(CGSizeMake(200, 200));
-    make.build();
 }];
 ```
 Before `din_makeStructures..` must has `superview`
