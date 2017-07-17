@@ -29,7 +29,6 @@
         make.centerX.equalTo(self.view);
         make.top.equalToSuperview().offset(100);
         make.size.din_equalTo(CGSizeMake(200, 200));
-        make.build();
     }];
     
     UIView *leftEar = [[UIView alloc] init];
@@ -40,7 +39,6 @@
         make.height.din_equalTo(30);
         make.bottom.equalTo(head.din_Top);
         make.left.equalTo(head).offset(10);
-        make.build();
     }];
     
     UIView *rightEar = [[UIView alloc] init];
@@ -49,7 +47,6 @@
     [rightEar din_makeStructures:^(DINStructureMaker *make) {
         make.size.bottom.equalTo(leftEar);
         make.right.equalTo(head).offset(-10);
-        make.build();
     }];
     
     UIView *leftEye = [[UIView alloc] init];
@@ -59,7 +56,6 @@
         make.size.din_equalTo(20);
         make.top.equalToSuperview().offset(50);
         make.centerX.equalToSuperview().offset(-50);
-        make.build();
     }];
     
     UIView *rightEye = [[UIView alloc] init];
@@ -68,7 +64,6 @@
     [rightEye din_makeStructures:^(DINStructureMaker *make) {
         make.size.centerY.equalTo(leftEye);
         make.centerX.equalToSuperview().offset(50);
-        make.build();
     }];
     
     UIView *nose = [[UIView alloc] init];
@@ -78,7 +73,6 @@
         make.centerX.equalToSuperview();
         make.size.din_equalTo(80);
         make.bottom.equalToSuperview().offset(-20);
-        make.build();
     }];
     
     UIView *nasalTip = [[UIView alloc] init];
@@ -88,7 +82,6 @@
         make.centerX.equalTo(head);
         make.size.din_equalTo(15);
         make.centerY.equalToSuperview().offset(-20);
-        make.build();
     }];
     
     UILabel *descriptionLabel = [[UILabel alloc]init];
@@ -101,7 +94,6 @@
         make.top.equalTo(head.din_Bottom).offset(30);
         make.width.equalToSuperview();
         make.height.din_equalTo(25);
-        make.build();
     }];
     
     

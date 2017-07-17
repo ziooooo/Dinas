@@ -16,7 +16,6 @@
 		58B0BAFC1EB1F87700D50F34 /* DINAnalyzeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE11EB1F87600D50F34 /* DINAnalyzeUtil.m */; };
 		58B0BAFD1EB1F87700D50F34 /* DINAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE41EB1F87700D50F34 /* DINAttribute.m */; };
 		58B0BAFE1EB1F87700D50F34 /* DINBoxValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */; };
-		58B0BAFF1EB1F87700D50F34 /* DINComposeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */; };
 		58B0BB001EB1F87700D50F34 /* DINEqualToAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */; };
 		58B0BB011EB1F87700D50F34 /* DINFrameAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEC1EB1F87700D50F34 /* DINFrameAttribute.m */; };
 		58B0BB021EB1F87700D50F34 /* DINInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B0BAEE1EB1F87700D50F34 /* DINInstruction.m */; };
@@ -47,8 +46,6 @@
 		58B0BAE41EB1F87700D50F34 /* DINAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINAttribute.m; sourceTree = "<group>"; };
 		58B0BAE51EB1F87700D50F34 /* DINBoxValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINBoxValue.h; sourceTree = "<group>"; };
 		58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINBoxValue.m; sourceTree = "<group>"; };
-		58B0BAE71EB1F87700D50F34 /* DINComposeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINComposeUtil.h; sourceTree = "<group>"; };
-		58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINComposeUtil.m; sourceTree = "<group>"; };
 		58B0BAE91EB1F87700D50F34 /* DINEqualToAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINEqualToAttribute.h; sourceTree = "<group>"; };
 		58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DINEqualToAttribute.m; sourceTree = "<group>"; };
 		58B0BAEB1EB1F87700D50F34 /* DINFrameAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DINFrameAttribute.h; sourceTree = "<group>"; };
@@ -136,8 +133,6 @@
 				58B0BAE41EB1F87700D50F34 /* DINAttribute.m */,
 				58B0BAE51EB1F87700D50F34 /* DINBoxValue.h */,
 				58B0BAE61EB1F87700D50F34 /* DINBoxValue.m */,
-				58B0BAE71EB1F87700D50F34 /* DINComposeUtil.h */,
-				58B0BAE81EB1F87700D50F34 /* DINComposeUtil.m */,
 				58B0BAE91EB1F87700D50F34 /* DINEqualToAttribute.h */,
 				58B0BAEA1EB1F87700D50F34 /* DINEqualToAttribute.m */,
 				58B0BAEB1EB1F87700D50F34 /* DINFrameAttribute.h */,
@@ -246,7 +241,6 @@
 				58B0BB011EB1F87700D50F34 /* DINFrameAttribute.m in Sources */,
 				58B0BB021EB1F87700D50F34 /* DINInstruction.m in Sources */,
 				58B0BB071EB1F87700D50F34 /* DINStructureMaker.m in Sources */,
-				58B0BAFF1EB1F87700D50F34 /* DINComposeUtil.m in Sources */,
 				58B0BB041EB1F87700D50F34 /* DINOffsetAttribute.m in Sources */,
 				58B0BAFD1EB1F87700D50F34 /* DINAttribute.m in Sources */,
 				586CD1141E8113DA0049731C /* main.m in Sources */,

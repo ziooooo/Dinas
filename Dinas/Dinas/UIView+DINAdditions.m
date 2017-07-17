@@ -14,6 +14,7 @@
 {
     DINStructureMaker *maker = [[DINStructureMaker alloc] initWithView:self];
     block(maker);
+    maker.build();
 }
 
 #pragma mark - DINTargetProtocol
