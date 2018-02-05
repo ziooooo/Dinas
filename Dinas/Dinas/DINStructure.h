@@ -20,7 +20,7 @@
 
 -(DINStructure * (^)(id<DINTargetProtocol> target))equalTo;
 
--(DINStructure * (^)())equalToSuperview;
+-(DINStructure * (^)(void))equalToSuperview;
 
 -(DINStructure * (^)(CGFloat multiplier))multiplierBy;
 
@@ -58,7 +58,7 @@
 
 @interface DINStructure (MacroSupport)
 
--(DINStructure * (^)())din_equalTo;
+-(DINStructure * (^)(void))din_equalTo;
 
 @end
 

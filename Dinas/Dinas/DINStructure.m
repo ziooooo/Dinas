@@ -19,7 +19,7 @@
     };
 }
 
--(DINStructure *(^)())equalToSuperview
+-(DINStructure *(^)(void))equalToSuperview
 {
     return ^DINStructure *(){
         if (![self.delegate isKindOfClass:DINStructureMaker.class]) NSAssert(0, @"error delegate");

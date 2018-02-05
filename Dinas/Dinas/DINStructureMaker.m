@@ -45,7 +45,7 @@
 
 #pragma mark - private methods
 
--(void (^)())build
+-(void (^)(void))build
 {
 
     //分析 x y w h 所需条件
@@ -193,7 +193,7 @@
     return ^(){};
 }
 
--(void (^)())debug
+-(void (^)(void))debug
 {
     NSDictionary *analyzeResult = [DINAnalyzeUtil analyzeWithAttributes:self.attributeArray];
     if (![analyzeResult[DIN_X_ANALYZE_KEY] count]) {

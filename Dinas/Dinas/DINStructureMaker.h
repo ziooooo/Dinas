@@ -13,9 +13,9 @@
 
 -(instancetype)initWithView:(UIView *)view;
 
--(void(^)())build;
+-(void(^)(void))build;
 
--(void(^)())debug;
+-(void(^)(void))debug;
 
 @property (weak ,nonatomic ,readonly) UIView *view;
 
